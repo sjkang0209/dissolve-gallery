@@ -179,10 +179,13 @@ main section{
     width:69px;
     filter:grayscale(100%);
     opacity:.65;
+    transition: opacity 0.3s ;
 }
 
 .gallery .thumbs img.selected{
-    border-color:#FF6600;;
+    border-color:#FF6600;
+    filter:grayscale(0%); 
+    opacity:1;
 }
 
 .gallery .thumbs img:hover{
